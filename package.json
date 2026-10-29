@@ -1,0 +1,21 @@
+{
+  "name": "bubble-match",
+  "version": "1.0.0",
+  "description": "Self-contained offline bubble-popper game. Zero dependencies, zero network.",
+  "main": "dist/bubble-match.cjs",
+  "module": "dist/bubble-match.mjs",
+  "browser": "dist/bubble-match.js",
+  "unpkg": "dist/bubble-match.js",
+  "jsdelivr": "dist/bubble-match.js",
+  "exports": {
+    ".": {
+      "import": "./dist/bubble-match.mjs",
+      "require": "./dist/bubble-match.cjs",
+      "default": "./dist/bubble-match.js"
+    }
+  },
+  "files": ["dist"],
+  "keywords": ["game", "bubble", "canvas", "offline", "zero-dependency"],
+  "license": "MIT",
+  "sideEffects": false
+}
